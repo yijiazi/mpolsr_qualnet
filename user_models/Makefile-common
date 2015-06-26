@@ -1,0 +1,43 @@
+USER_MODELS_INCLUDES = \
+-I../addons/user_models/src \
+-I../addons/user_models/src/mpolsrv2
+
+USER_MODELS_OPTIONS = -DADDON_USER_MODELS
+USER_MODELS_SRCS = \
+../addons/user_models/src/mp_routing_olsrv2_niigata.cpp \
+\
+../addons/user_models/src/mpolsrv2/mp_proc_rcv_msg_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_proc_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_forward_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_relay_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_pktbuf.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_link_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_2neigh_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_mpr_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_mpr_selector_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_adv_neigh_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_topology_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_routing_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_attach_network_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_assn_history_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_symmetric_neighbor_set.cpp \
+../addons/user_models/src/mpolsrv2/mp_address_compress.cpp \
+../addons/user_models/src/mpolsrv2/mp_tlv_compress.cpp \
+../addons/user_models/src/mpolsrv2/mp_parse_address.cpp \
+../addons/user_models/src/mpolsrv2/mp_parse_tlv.cpp \
+../addons/user_models/src/mpolsrv2/mp_generate_msg.cpp \
+../addons/user_models/src/mpolsrv2/mp_parse_msg.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_recv_packet.cpp \
+../addons/user_models/src/mpolsrv2/mp_packet.cpp \
+../addons/user_models/src/mpolsrv2/mp_mantissa.cpp \
+../addons/user_models/src/mpolsrv2/mp_olsr.cpp \
+../addons/user_models/src/mpolsrv2/mp_olsr_list.cpp \
+../addons/user_models/src/mpolsrv2/mp_olsr_hash_list.cpp \
+../addons/user_models/src/mpolsrv2/mp_olsr_util.cpp \
+../addons/user_models/src/mpolsrv2/mp_olsr_debug.cpp \
+../addons/user_models/src/mpolsrv2/mp_olsr_conf.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_m_rtable.cpp \
+../addons/user_models/src/mpolsrv2/mp_proc_neighbor_address_association_set.cpp
+
+
+
